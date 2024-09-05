@@ -3,23 +3,6 @@
 
 Task Optimizer is a distributed microservice-based application designed to optimize task scheduling in real-time. It utilizes linear programming techniques to distribute tasks across multiple systems efficiently, minimizing time and resource costs. This system is ideal for use cases that require task delegation in dynamic, large-scale environments.
 
-## Features
-
-- **Distributed Task Scheduling**: Leverages a microservices architecture to schedule and assign tasks efficiently across distributed systems.
-- **Linear Programming for Optimization**: Uses linear programming algorithms to find optimal task allocation and scheduling based on available resources.
-- **Scalable Architecture**: Built using Go and Java, with Docker and Kubernetes support for seamless scaling.
-- **Real-time Task Monitoring**: Provides real-time insights and monitoring into task allocation and execution statuses.
-- **RESTful APIs**: A comprehensive set of REST APIs to allow easy integration with other services or platforms.
-
-## Architecture
-
-The application is designed with a microservices approach to ensure modularity and scalability. Each service is responsible for specific components of task optimization.
-
-### Microservices:
-1. **Task Scheduler Service**: Handles task prioritization and dispatch.
-2. **Optimization Engine**: Responsible for running the linear programming algorithms and determining the optimal allocation.
-3. **Monitoring Service**: Provides real-time monitoring and logging.
-4. **API Gateway**: Centralized entry point for all RESTful APIs.
 
 ### Key Components:
 - **Go**: Implements core microservices, ensuring high performance and concurrency.
