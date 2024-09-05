@@ -1,4 +1,5 @@
-# Task Optimizer
+# Task Optimizer (NOTE: THIS IS A WORK IN PROGRESS)
+## PS: This repository may not be the most recent version of the project
 
 Task Optimizer is a distributed microservice-based application designed to optimize task scheduling in real-time. It utilizes linear programming techniques to distribute tasks across multiple systems efficiently, minimizing time and resource costs. This system is ideal for use cases that require task delegation in dynamic, large-scale environments.
 
